@@ -1,6 +1,7 @@
 import { css } from '@emotion/react'
 
 export const container = css`
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
