@@ -1,23 +1,23 @@
-作成方法
-# yarn create next-app --typescript
+# 作成方法
+yarn create next-app --typescript
 
-起動方法
-# yarn dev
+# 起動方法
+yarn dev
 
-emotionを追加
-# yarn add @emotion/react
+# emotionを追加
+yarn add @emotion/react
 
-tsconfig.jsonにjsxImportSourceパラメーターを追加する。
+# tsconfig.jsonにjsxImportSourceパラメーターを追加する。
 {
   "compilerOptions": {
     "jsxImportSource": "@emotion/react"
   }
 }
 
-babelプラグインを追加
-# yarn add -D @emotion/babel-plugin
+# babelプラグインを追加
+yarn add -D @emotion/babel-plugin
 
-.babelrcを作成して下記内容を記載する。
+# .babelrcを作成して下記内容を記載する。
 {
   "presets": [
     [
