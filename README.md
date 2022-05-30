@@ -32,3 +32,7 @@ yarn add -D @emotion/babel-plugin
   ],
   "plugins": ["@emotion/babel-plugin"]
 }
+
+# MUIアイコンの追加
+yarn add @mui/material @emotion/react @emotion/styled
+yarn add @mui/icons-material

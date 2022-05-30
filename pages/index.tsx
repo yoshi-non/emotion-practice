@@ -1,9 +1,12 @@
 import type { NextPage } from 'next'
-import * as styles from '../styles/pages/index.styles'
+import { TopNav } from '../components/TopNav'
+import * as styles from '../styles/index.styles'
 
 const Home: NextPage = () => {
   return (
-    <div css={styles.container}>Hello World!</div>
+    <div css={styles.container}>
+      <TopNav />
+    </div>
   )
 }
 
