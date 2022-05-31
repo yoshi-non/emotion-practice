@@ -1,7 +1,7 @@
-import * as styles from '../styles/MainGroup.styles'
+import * as styles from '../styles/Group.styles'
 import GroupsIcon from '@mui/icons-material/Groups';
 
-export const MainGroup = () => {
+export const Group = () => {
     return (
       <div css={styles.container}>
           <div css={styles.groupItem}>

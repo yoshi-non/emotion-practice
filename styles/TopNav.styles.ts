@@ -9,6 +9,7 @@ export const container = css`
   width: 100%;
   box-shadow: 0 1px 1px rgb(0 0 0 / 20%);
   background-color: white;
+  z-index: 150;
 `
 export const logo = css`
   display: flex;
