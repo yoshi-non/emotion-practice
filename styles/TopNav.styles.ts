@@ -16,6 +16,7 @@ export const logo = css`
   align-items: center;
   height: 3rem;
   background-color: white;
+  cursor: pointer;
 `
 export const settingBox = css`
   display: flex;

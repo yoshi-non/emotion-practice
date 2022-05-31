@@ -16,6 +16,7 @@ export const SideNavLink = css`
   font-size: 1.2rem;
   text-align: center;
   padding: 0.5rem;
+  cursor: pointer;
   border-right: 1px solid #777;
   border-bottom: 1px solid #777;
 `
