@@ -1,8 +1,9 @@
 import { css } from '@emotion/react'
 
 export const container = css`
-position: fixed;
-  width: 15%;
+  position: fixed;
+  flex-shrink: 0;
+  width: 200px;
   height: 100vh;
   background-color: #bbb;
 `
