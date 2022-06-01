@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import SearchNav from '../../components/Search/SearchNav'
 import { SideNav } from '../../components/SideNav'
 import { TopNav } from '../../components/TopNav'
 import * as styles from '../../styles/index.styles'
@@ -10,7 +11,7 @@ const Search: NextPage = () => {
       <div css={styles.main}>
         <SideNav />
         <div css={styles.mainContents}>
-          vbbb
+          <SearchNav/>
         </div>
       </div>
     </div>
