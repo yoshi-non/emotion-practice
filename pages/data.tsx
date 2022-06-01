@@ -78,3 +78,27 @@ export const groupItems = [
         number: 65
     },
 ]
+
+
+export const users = [
+    {
+        id: 1,
+        iconImg: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        name: "刃破夢人(バハムート)",
+        item: [
+            {
+                itemId: 1,
+                name: "アイテム名",
+                itemImg: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+                itemInfomation: "テキストテキストテキスト"
+            },
+            {
+                itemId: 2,
+                name: "アイテム名",
+                itemImg: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+                itemInfomation: "テキストテキストテキスト"
+            },
+        ],
+    },
+]
+
