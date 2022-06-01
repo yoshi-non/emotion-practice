@@ -1,20 +1,21 @@
 import type { NextPage } from 'next'
+import PrivateNav from '../../components/Private/PrivateNav'
 import { SideNav } from '../../components/SideNav'
 import { TopNav } from '../../components/TopNav'
 import * as styles from '../../styles/index.styles'
 
-const profile: NextPage = () => {
+const Private: NextPage = () => {
   return (
     <div css={styles.container}>
       <TopNav />
       <div css={styles.main}>
         <SideNav />
         <div css={styles.mainContents}>
-          grvyhyhy
+          <PrivateNav/>
         </div>
       </div>
     </div>
   )
 }
 
-export default profile
+export default Private

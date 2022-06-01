@@ -3,7 +3,7 @@ import { SideNav } from '../../components/SideNav'
 import { TopNav } from '../../components/TopNav'
 import * as styles from '../../styles/index.styles'
 
-const bookmark: NextPage = () => {
+const Bookmark: NextPage = () => {
   return (
     <div css={styles.container}>
       <TopNav />
@@ -17,4 +17,4 @@ const bookmark: NextPage = () => {
   )
 }
 
-export default bookmark
+export default Bookmark

@@ -12,18 +12,18 @@ export const SideNav = () => {
       <Link href="/">
         <div css={styles.SideNavLink}><GroupIcon/>グループ</div>
       </Link>
-      <Link href="/profile/profile">
+      <Link href="/Private/Private">
         <div css={styles.SideNavLink}><LockIcon/>プライベート</div>
       </Link>
-      <Link href="/bookmark/bookmark">
+      <Link href="/Bookmark/Bookmark">
         <div css={styles.SideNavLink}><StarIcon/>ブックマーク</div>
       </Link>
-      <Link href="/search/search">
+      <Link href="/Search/Search">
         <div css={styles.SideNavLink}><PersonSearchIcon/>さがす</div>
       </Link>
-      <Link href="/group-add/">
+      {/* <Link href="/group-add/">
         <div css={styles.SideNavLink}><GroupAddIcon/>グループ作成</div>
-      </Link>
+      </Link> */}
     </div>
   )
 }

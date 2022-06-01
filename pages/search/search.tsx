@@ -3,7 +3,7 @@ import { SideNav } from '../../components/SideNav'
 import { TopNav } from '../../components/TopNav'
 import * as styles from '../../styles/index.styles'
 
-const search: NextPage = () => {
+const Search: NextPage = () => {
   return (
     <div css={styles.container}>
       <TopNav />
@@ -17,4 +17,4 @@ const search: NextPage = () => {
   )
 }
 
-export default search
+export default Search
