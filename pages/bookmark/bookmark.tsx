@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import BookmarkNav from '../../components/Bookmark/BookmarkNav'
 import { SideNav } from '../../components/SideNav'
 import { TopNav } from '../../components/TopNav'
 import * as styles from '../../styles/index.styles'
@@ -10,7 +11,7 @@ const Bookmark: NextPage = () => {
       <div css={styles.main}>
         <SideNav />
         <div css={styles.mainContents}>
-          vhmgurthgirmhgrihy
+          <BookmarkNav/>
         </div>
       </div>
     </div>
