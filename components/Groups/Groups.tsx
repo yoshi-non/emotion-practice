@@ -1,8 +1,8 @@
-import * as styles from '../styles/Group.styles'
+import * as styles from '../../styles/Group.styles'
 import GroupsIcon from '@mui/icons-material/Groups';
-import { groupItems } from '../pages/data';
+import { groupItems } from '../../pages/data';
 
-export const Group = () => {
+export const Groups = () => {
   let numberWithComma = new Intl.NumberFormat();
     return (
       <div css={styles.container}>

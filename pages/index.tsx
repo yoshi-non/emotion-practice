@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Link from 'next/link'
-import { Group } from '../components/Group'
+import { Groups } from '../components/Groups/Groups'
+import GroupsNav from '../components/Groups/GroupsNav'
 import { SideNav } from '../components/SideNav'
 import { TopNav } from '../components/TopNav'
 import * as styles from '../styles/index.styles'
@@ -12,8 +13,9 @@ import * as styles from '../styles/index.styles'
       <div css={styles.main}>
         <SideNav />
         <div css={styles.mainContents}>
+          <GroupsNav/>
           <Link href="/group/groupID/list">
-            <Group />
+            <Groups />
           </Link>
         </div>
       </div>
