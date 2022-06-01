@@ -80,25 +80,123 @@ export const groupItems = [
 ]
 
 
-export const users = [
+export const userItems = [
     {
         id: 1,
-        iconImg: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
-        name: "刃破夢人(バハムート)",
-        item: [
-            {
-                itemId: 1,
-                name: "アイテム名",
-                itemImg: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
-                itemInfomation: "テキストテキストテキスト"
-            },
-            {
-                itemId: 2,
-                name: "アイテム名",
-                itemImg: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
-                itemInfomation: "テキストテキストテキスト"
-            },
-        ],
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 2,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 3,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 4,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 5,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 6,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 7,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 8,
+        name: "アイテム名",
+        img: "http://kai-you.net/images/a/2021/04/267752288aa2d5db2a5ffe6720dfbec6.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+]
+
+export const bookmarkItems = [
+    {
+        id: 1,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 2,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 3,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 4,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 5,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 6,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 7,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 8,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 9,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 10,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
+    },
+    {
+        id: 11,
+        name: "アイテム名",
+        img: "https://64.media.tumblr.com/f9759b2dea9ec75c1cf1de3e1e00374c/tumblr_pf255uvaPX1sha35ho1_1280.jpg",
+        infomation: "テキストテキストテキスト"
     },
 ]
 

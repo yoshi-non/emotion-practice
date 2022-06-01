@@ -1,4 +1,5 @@
 import type { NextPage } from 'next'
+import { PrivateItems } from '../../components/Private/PrivateItems'
 import PrivateNav from '../../components/Private/PrivateNav'
 import { SideNav } from '../../components/SideNav'
 import { TopNav } from '../../components/TopNav'
@@ -12,6 +13,7 @@ const Private: NextPage = () => {
         <SideNav />
         <div css={styles.mainContents}>
           <PrivateNav/>
+          <PrivateItems/>
         </div>
       </div>
     </div>

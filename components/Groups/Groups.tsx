@@ -1,4 +1,4 @@
-import * as styles from '../../styles/Group.styles'
+import * as styles from '../../styles/Groups.styles'
 import GroupsIcon from '@mui/icons-material/Groups';
 import { groupItems } from '../../pages/data';
 

@@ -14,7 +14,7 @@ import * as styles from '../styles/index.styles'
         <SideNav />
         <div css={styles.mainContents}>
           <GroupsNav/>
-          <Link href="/group/groupID/list">
+          <Link href="/groups/groupID/list">
             <Groups />
           </Link>
         </div>
